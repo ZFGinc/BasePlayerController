@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c37f5f66-dbc6-40de-b65a-d296504ad920" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/08_Scenes/MainGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08_Scenes/MainGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Scripts/EventsSystem/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Scripts/EventsSystem/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Scripts/EventsSystem/Events/CameraShaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Scripts/EventsSystem/Events/CameraShaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Scripts/SaveSystem/PlayerDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Scripts/SaveSystem/PlayerDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/09_Scripts/Weapon/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/09_Scripts/Weapon/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/02_DryTerran/DryTerran.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/02_DryTerran/DryTerran.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/02_DryTerran/DryTerranUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/02_DryTerran/DryTerranUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet2Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanet2Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanetUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/03_GasPlanet/GasPlanetUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/GasLayers.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/GasLayers.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/GasLayersUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/GasLayersUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/Ring.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/Ring.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/RingUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/04_GasPlanetLayers/RingUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IceClouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IceClouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IceCloudsUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IceCloudsUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IcePlanetUnder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IcePlanetUnder.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IcePlanetUnderUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/IcePlanetUnderUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/Lakes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/Lakes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/LakesUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/05_IceWorld/LakesUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/Clouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/Clouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/CloudsUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/CloudsUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetLandMass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetLandMass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetLandMassUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetLandMassUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetUnder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetUnder.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetUnderUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/06_LandMasses/PlanetUnderUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/Craters Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/Craters Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/Craters.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/Craters.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/NoAtmosphere.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/NoAtmosphere.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/NoAtmosphereUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/08_NoAtmosphere/NoAtmosphereUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/Star Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/Star Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/Star.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/Star.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarBlobs Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarBlobs Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarBlobs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarBlobs.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarFlares.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarFlares.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarFlaresUltraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/09_Stars/StarFlaresUltraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/13_Galaxy/Galaxy Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/13_Galaxy/Galaxy Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/13_Galaxy/Galaxy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/13_Galaxy/Galaxy.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/14_Blackhole/BlackholeRing Ultraviolet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/14_Blackhole/BlackholeRing Ultraviolet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/10_Space_Objects/14_Blackhole/BlackholeRing.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/10_Space_Objects/14_Blackhole/BlackholeRing.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Objects/ServerPlate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Objects/ServerPlate.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Gun1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Gun1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/EditorUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/EditorUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_Default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_Default.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_Default_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_Default_base.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_SmoothShake_Base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_SmoothShake_Base.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_SmoothShake_Preset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/Icons/Icon_SmoothShake_Preset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakeBaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakeBaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakeBasePresetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakeBasePresetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakerDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/ShakerDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/TimeSettingsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/TimeSettingsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/WindowLinks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Editor/WindowLinks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/ShakeBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/ShakeBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Shaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Shaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/SmoothShakeFreeDefault.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/SmoothShakeFreeDefault.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/SmoothShakeFreePreset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/SmoothShakeFreePreset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/TimeSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/TimeSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Utility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Data/Utility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bg Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bg Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bg.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bg.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bgtexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/DemoFiles/bgtexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/SmoothShakeFreeDemo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Demo/SmoothShakeFreeDemo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/CameraDizzyHit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/CameraDizzyHit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/CameraHit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/CameraHit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/DizzyHit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/DizzyHit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/DrunkCamera.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/DrunkCamera.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/Hit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/Hit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/SeaSick.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/SeaSick.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/VerticalFloating.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/VerticalFloating.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/please stop calling me drunk.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/Presets/please stop calling me drunk.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/SmoothShake.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/SmoothShake.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/SmoothShakeFree_Documentation_1.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/SmoothShakeFree_Documentation_1.0.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/com.daburo.smoothshakefree.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmoothShakeFree/com.daburo.smoothshakefree.asmdef.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/13/b8bd029a/Color.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/35/8697b773/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/74/715d4955/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/84/81453b35/KeyCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/96/ad8f855b/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/a4/664424b6/UnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/bb/97d68b5f/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/e8/9f98b2eb/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0900e0d4bb644dafbfd59eb7fd222a681ddc00/ec/5cfee27a/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/ae/86e7228b/Attribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6524f18ff747462d8847618bfcedbe402ac00/80/cee4fa94/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c34cbf4d96f64646aa2dfafcf26806e318600/73/f9623f4e/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/09_Scripts/Debug/DebugPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/09_Scripts/Items/Chair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/09_Scripts/Items/HackTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/09_Scripts/Objects/Bad/Bed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem/InputSystem/Editor/Settings/InputSettingsProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core/Editor/Volume/VolumeComponentEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/UGUI/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2sw2jf8CLV0ox1g7cQv4w2atXyz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Rider.SolutionAnalysis.ShowPreview&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\ProjectLoneliness.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="F:\ProjectLoneliness\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Files\Unity\Hub\Editor\6000.0.30f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath F:\ProjectLoneliness -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\ProjectLoneliness" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Files\Unity\Hub\Editor\6000.0.30f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath F:\ProjectLoneliness -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\ProjectLoneliness" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c37f5f66-dbc6-40de-b65a-d296504ad920" name="Changes" comment="" />
+      <created>1739352453484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739352453484</updated>
+      <workItem from="1739352454430" duration="818000" />
+      <workItem from="1739353706298" duration="82000" />
+      <workItem from="1739437022664" duration="7361000" />
+      <workItem from="1739524093149" duration="34000" />
+      <workItem from="1739524170328" duration="13428000" />
+      <workItem from="1739592613627" duration="15022000" />
+      <workItem from="1739619442186" duration="9783000" />
+      <workItem from="1739783504555" duration="4276000" />
+      <workItem from="1739870874744" duration="7214000" />
+      <workItem from="1740043783808" duration="114000" />
+      <workItem from="1740050828911" duration="2851000" />
+      <workItem from="1740143178562" duration="1363000" />
+      <workItem from="1740190633254" duration="2165000" />
+      <workItem from="1740226008343" duration="12000" />
+      <workItem from="1740275059970" duration="2023000" />
+      <workItem from="1740280535954" duration="8666000" />
+      <workItem from="1740302753598" duration="2250000" />
+      <workItem from="1740307248324" duration="2335000" />
+      <workItem from="1740827019444" duration="5030000" />
+      <workItem from="1741254160078" duration="1296000" />
+      <workItem from="1742082649670" duration="1009000" />
+      <workItem from="1743163077817" duration="750000" />
+      <workItem from="1743307734638" duration="2566000" />
+      <workItem from="1744101890872" duration="9514000" />
+      <workItem from="1744188336693" duration="3724000" />
+      <workItem from="1744364679107" duration="219000" />
+      <workItem from="1744368837085" duration="1403000" />
+      <workItem from="1744428569383" duration="20586000" />
+      <workItem from="1744502144634" duration="11520000" />
+      <workItem from="1744975103758" duration="532000" />
+      <workItem from="1745044743920" duration="1800000" />
+      <workItem from="1745226175606" duration="5000" />
+      <workItem from="1745226461742" duration="8000" />
+      <workItem from="1750582241212" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
