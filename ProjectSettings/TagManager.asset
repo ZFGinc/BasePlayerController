@@ -4,34 +4,34 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Trash
-  - Void
-  - NoVoid
-  - TrackingObject
+  - 
+  - 
+  - 
+  - 
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ItemInventory
+  - 
   - Water
   - UI
-  - HoverObject
-  - HoverUI
-  - Ladder
-  - VoidLayer
-  - Wall
-  - AudioSourceLayer
-  - TransparentLayer
-  - InfoUI
-  - Bullet
-  - GraphicVolume
-  - UntouchableCollider
-  - Food
-  - NoVoidLayer
-  - WorldCollider
-  - Player
-  - Oxygen
-  - Sun
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

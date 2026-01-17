@@ -163,9 +163,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: InWater
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Climbing
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7619979332831756139}
   m_Solo: 0
@@ -329,9 +326,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: InWater
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Climbing
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7619979332831756139}
