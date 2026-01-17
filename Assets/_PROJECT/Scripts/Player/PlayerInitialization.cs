@@ -9,7 +9,6 @@ namespace ZFGinc.Player
         public bool InitializeOnStart = true;
         public bool IsInit = false;
         [Space]
-        public GameObject UI;
         public GameObject Camera;
         public GameObject Skin;
         [Space]
@@ -23,7 +22,6 @@ namespace ZFGinc.Player
         public HoldObjects HoldObjects;
         public GrabObjects GrabObjects;
         public UseObjects UseObjects;
-        public EquipObjects EquipObjects;
         public MovementAudio MovementAudio;
         public ZoomAbility ZoomAbility;
         public OpenClosePauseMenu OpenClosePauseMenu;
@@ -48,8 +46,6 @@ namespace ZFGinc.Player
         {
             if (!InitializeOnStart) return;
 
-            UI.SetActive(true);
-            UI.transform.parent = null;
             Camera.SetActive(true);
             Skin.SetActive(false);
 
@@ -63,7 +59,6 @@ namespace ZFGinc.Player
             HoldObjects.enabled = true;
             GrabObjects.enabled = true;
             UseObjects.enabled = true;
-            EquipObjects.enabled = true;
             MovementAudio.enabled = true;
 
             ZoomAbility.enabled = true;
@@ -73,12 +68,10 @@ namespace ZFGinc.Player
 
             CharacterInput.Initialize(FirstPersonCharacter, InputBinding);
             FirstPersonCharacterLookInput.Initialize(FirstPersonCharacter, InputBinding);
-            Inventory.Initialize(InputBinding, HoldObjects);
             LookingObjectRay.Initialize(InputBinding);
             GrabObjects.Initialize(InputBinding, LookingObjectRay, Inventory);
             HoldObjects.Initialize(InputBinding, LookingObjectRay, FirstPersonCharacter);
             UseObjects.Initialize(InputBinding, LookingObjectRay);
-            EquipObjects.Initialize(InputBinding, LookingObjectRay, Inventory);
             MovementAudio.Initialize(FirstPersonCharacter, CharacterMovement);
 
             IsInit = true;

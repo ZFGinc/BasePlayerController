@@ -162,12 +162,12 @@ namespace ZFGinc.Player
             if (Input.GetKeyDown(LCM))
             {
                 Debug.Log("Pressed: " + LCM.ToString());
-                PlayerInitialization.Instance.Inventory.ActionInventoryItem();
+                //PlayerInitialization.Instance.Inventory.ActionInventoryItem();
             }
             if (Input.GetKeyDown(RCM))
             {
                 Debug.Log("Pressed: " + RCM.ToString());
-                PlayerInitialization.Instance.Inventory.UseInventoryItem();
+                //PlayerInitialization.Instance.Inventory.UseInventoryItem();
             }
             if (Input.GetKeyDown(WCM))
             {

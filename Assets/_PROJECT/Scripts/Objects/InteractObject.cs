@@ -404,7 +404,7 @@ namespace ZFGinc.Objects
 
         public void PushDropObject()
         {
-            if (!PlayerInitialization.Instance.Inventory.CheckObjectInInventory(Item)) return;
+            //if (!PlayerInitialization.Instance.Inventory.CheckObjectInInventory(Item)) return;
             if (!PlayerInitialization.Instance.GrabObjects.TryDropItem()) return;
             if (Rigidbody == null) return;
 

@@ -10,19 +10,16 @@ namespace ZFGinc.InventoryItems
         [Space(15)]
         [SerializeField] private Image _imageItem;
         [SerializeField] private GameObject _selectedSquare;
-        [SerializeField] private GameObject _preview;
 
         public void SetImageItem(Sprite sprite)
         {
             _imageItem.sprite = sprite;
-            _preview.SetActive(false);
             if (sprite != null) _imageItem.gameObject.SetActive(true);
         }
 
         public void ResetImageItem()
         {
             _imageItem.sprite = null;
-            _preview.SetActive(true);
             ActiveSelfItemImage(false);
             SelectedItem(false);
         }

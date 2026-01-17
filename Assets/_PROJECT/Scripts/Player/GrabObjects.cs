@@ -26,7 +26,7 @@ namespace ZFGinc.Player
             _lookingObjectRay = lookingObjectRay;
             _inventory = inventory;
 
-            _inventory.OnRedrawInventory += OnRedrawInventory;
+            //_inventory.OnRedrawInventory += OnRedrawInventory;
         }
 
         private void Update()
@@ -66,10 +66,10 @@ namespace ZFGinc.Player
                     yield break;
                 }
 
-                if (_inventory.TryAddItemInventory(_cachedInteractObject.Item))
-                {
-                    OnAddItemInInventory(_cachedInteractObject);
-                }
+                //if (_inventory.TryAddItemInventory(_cachedInteractObject.Item))
+                //{
+                //    OnAddItemInInventory(_cachedInteractObject);
+                //}
                 else _cachedInteractObject.InteractAudio(InteractionCode.Error);
 
                 _cachedInteractObject = null;
@@ -89,11 +89,11 @@ namespace ZFGinc.Player
 
         public bool TryDropItem()
         {
-            Item item = _inventory.CurrentItem;
+            Item item = null;//_inventory.CurrentItem;
 
             if (item == null) return false;
 
-            if (!_inventory.TryRemoveItemInventory()) return false;
+            //if (!_inventory.TryRemoveItemInventory()) return false;
 
             item.Object.Drop();
             item.Object.EnablePhysic();
