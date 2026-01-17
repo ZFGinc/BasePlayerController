@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5741648897528336754}
   - component: {fileID: 790307048856866017}
   - component: {fileID: 7093569760234621472}
-  - component: {fileID: 2530164930002472415}
+  - component: {fileID: 2324230542378684207}
   - component: {fileID: 6524130607630774915}
   - component: {fileID: 7805120937982490691}
   - component: {fileID: 4691348697208682370}
@@ -45,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035489515892239350}
-  m_Mesh: {fileID: 3076543659198709218, guid: 2ec921c2166db4355a0d0d5ea1385ebe, type: 3}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &7093569760234621472
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -91,8 +91,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2530164930002472415
-BoxCollider:
+--- !u!64 &2324230542378684207
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -109,9 +109,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.25000006}
-  m_Center: {x: 0.000000059604645, y: -0.000000059604645, z: 0.000000007450581}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &6524130607630774915
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -164,6 +165,8 @@ MonoBehaviour:
   _audioClipsForGrab:
   - {fileID: 8300000, guid: e5e9ea9b5960cb24ba5ba1a1c32a4173, type: 3}
   _audioClipsForDrop: []
+  _audioClipsForEquip: []
+  _audioClipsForUnequip: []
   _audioClipsForInteractError: []
   _audioClipsForUse: []
   _audioClipsForStopUse: []
@@ -202,7 +205,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 16
   _objectInfo: {fileID: 11400000, guid: 494b1fb0b29ac074d91e5558dc2ad69c, type: 2}
-  _collider: {fileID: 2530164930002472415}
+  _collider: {fileID: 0}
   _renderer: {fileID: 7093569760234621472}
   _renderersForInventory:
   - {fileID: 7093569760234621472}
@@ -228,6 +231,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _eventEquip:
+    m_PersistentCalls:
+      m_Calls: []
+  _eventUnequip:
     m_PersistentCalls:
       m_Calls: []
   _eventUseInInventory:

@@ -422,10 +422,19 @@ namespace ZFGinc.Objects
             if (IsGrab && InventoryPivot != null)
             {
                 if (SmoothPosition)
-                    transform.position = Vector3.Lerp(transform.position, InventoryPivot.position + Item.PositionOffcet, Time.deltaTime * SmoothPositionSpeed);
+                    transform.position = Vector3.Lerp(transform.position, InventoryPivot.position + GetOffsetVector3(InventoryPivot, Item.PositionOffcet), Time.deltaTime * SmoothPositionSpeed);
                 if (SmoothRotation)
                     transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(InventoryPivot.eulerAngles + Item.RotationOffcet), Time.deltaTime * SmoothRotationSpeed);
             }
+        }
+
+        protected Vector3 GetOffsetVector3(Transform transform, Vector3 offset)
+        {
+            Vector3 newPosition = transform.right * Item.PositionOffcet.x;
+            newPosition += transform.up * Item.PositionOffcet.y;
+            newPosition += transform.forward * Item.PositionOffcet.z;
+
+            return newPosition;
         }
 
         protected virtual void LocalizeGUI()

@@ -12,6 +12,7 @@ namespace ZFGinc.InventoryItems
         //public string KeyLocalization;
         public string Name;
         public string Description;
+        public bool ForTwoHands = false;
 
         [Space]
         public int Price = 30;

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Head Equipment
   Description: Head Equipment
+  ForTwoHands: 1
   Price: 30
   Count: 1
-  Prefab: {fileID: 1586368904242268187, guid: cae9023e31d92474b9f8fa2c79d53541, type: 3}
-  Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Prefab: {fileID: 1035489515892239350, guid: 5f3ce6e707cf3154ba6e3e091ab3446c, type: 3}
+  Icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}

@@ -74,7 +74,9 @@ namespace ZFGinc.InventoryItems
 
             Debug.Log("Item added in inventory");
             _items.Add(item);
-            _currentIndexItem = _items.Count - 1;
+
+            if (item.Info.ForTwoHands)
+                _currentIndexItem = _items.Count - 1;
 
             item.SetLayer(LayerMaskItems);
 
@@ -223,6 +225,7 @@ namespace ZFGinc.InventoryItems
         {
             if (value > 6 && value < 10) return;
             if (value >= _copacityInventory) return;
+            if (CurrentItem && CurrentItem.Info.ForTwoHands) return;
 
             _currentIndexItem = value;
 
@@ -232,6 +235,7 @@ namespace ZFGinc.InventoryItems
         private void OnMouseScrollWheel(int value)
         {
             if (_holdObjects.IsHold) return;
+            if (CurrentItem && CurrentItem.Info.ForTwoHands) return;
 
             _currentIndexItem -= value;
 
@@ -298,9 +302,10 @@ namespace ZFGinc.InventoryItems
         private void ShowItemsInInventory()
         {
             Debug.Log("Show items in slots");
-            foreach (CellInventory cell in _cellsIventory)
+            for (int i = 0; i < _cellsIventory.Count; i++)
             {
-                cell.ResetImageItem();
+                _cellsIventory[i].ResetImageItem();
+                _cellsIventory[i].SetNewKey((i + 1).ToString());
             }
 
             for (int i = 0; i < _items.Count; i++)
@@ -314,9 +319,10 @@ namespace ZFGinc.InventoryItems
         private void ReDrawEquipment()
         {
             Debug.Log("Show items in slots");
-            foreach (CellInventory cell in _cellsEquipment)
+            for (int i = 0; i < _cellsEquipment.Count; i++)
             {
-                cell.ResetImageItem();
+                _cellsEquipment[i].ResetImageItem();
+                _cellsEquipment[i].SetNewKey((i + 7).ToString());
             }
 
             for (int i = 0; i < _equipment.Count; i++)

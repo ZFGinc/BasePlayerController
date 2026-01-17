@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: "\u041C\u044F\u0447"
   Description: "\u0418\u0433\u0440\u0430\u0439 \u0441 \u043D\u0438\u043C"
+  ForTwoHands: 0
   Price: 30
   Count: 1
   Prefab: {fileID: 1586368904242268187, guid: cae9023e31d92474b9f8fa2c79d53541, type: 3}
